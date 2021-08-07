@@ -1,0 +1,70 @@
+html{
+scroll-behavior: smooth;
+}
+body,h1,h2,h3,h4,h5,h6{
+font-size: 24px;
+color: white;
+text-transform: capitalize;
+background-color: black;
+font-family:Copperplate, "Copperplate Gothic Light", fantasy;
+}
+p,span{
+font-size: 16px;
+color: white;
+font-family:Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+}
+body{
+background-color: #39c;
+}
+.main-wrapper{
+width: 1000px;
+height: auto;
+margin: auto;
+}
+.header-wrapper{
+width: 1000px;
+height: 100px;
+background-color: #ffff;
+}
+#navbar{
+width: 1000px;
+height: 50px;
+background-color: gray;
+color: #fff;
+}
+#menu{
+	padding: 0px;
+	line-height: 36px;
+	margin-top: 5px;
+	float: left;
+}
+#menu li
+{
+list-style: none;
+display: inline;
+}
+.content-wraper{
+width: 1000px;
+height: 600px;
+color: #f96;
+background-color: #c98;
+}
+#right-content{
+width: 750px;
+height: 600px;
+background-color: #fcc;
+float: right;
+}
+#left-sidebar{
+width: 250px;
+height: 600px;
+background-color: #000;
+float: left;
+}
+#footer{
+width: 1000px;
+height: 100px;
+background-color: gray;
+color: #fff;
+clear: both;
+}
